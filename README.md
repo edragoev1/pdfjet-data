@@ -4,9 +4,10 @@ The example data of [PDFjet](https://github.com/edragoev1/pdfjet): the text,
 CSV, XML, Markdown, image and PDF files its examples and tests read.
 
 This repository is the `data` directory of
-[edragoev1/pdfjet](https://github.com/edragoev1/pdfjet), where it is a git
-submodule. Clone PDFjet with `git clone --recurse-submodules`, or run
-`git submodule update --init` in a clone, to get it there.
+[edragoev1/pdfjet](https://github.com/edragoev1/pdfjet), at the commit that
+`fonts-and-data.txt` of PDFjet pins. PDFjet's build, run and test scripts
+fetch it there the first time they run, and `get-fonts-and-data.sh` does it
+alone.
 
 ## Where the data comes from
 
